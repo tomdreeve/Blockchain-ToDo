@@ -1,0 +1,65 @@
+{
+    "contractName": "TodoList",
+    "abi": [],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/Tom Reeve/Code/TomGit/eth-todo-list/contracts/TodoList.sol\":\"TodoList\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/Tom Reeve/Code/TomGit/eth-todo-list/contracts/TodoList.sol\":{\"keccak256\":\"0x13a8203f714efa48419295330e809408e5491e97441d46f176436a4839c902a9\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://15cbfb2e8c361133c781299edad4560be78612e2f87aa296fa90dd88031e5a7f\",\"dweb:/ipfs/QmW4LAvJtxj3nVFQvHNQMJM5eq984dkrGewD3fH7JXJRhn\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220eabee3db19f8d892c995d077307624e99aa2ef4aa951f5dcc45b69b82cc9b18164736f6c63430008070033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220eabee3db19f8d892c995d077307624e99aa2ef4aa951f5dcc45b69b82cc9b18164736f6c63430008070033",
+    "sourceMap": "61:28:0:-:0;;;;;;;;;;;;;;;;;;;",
+    "deployedSourceMap": "61:28:0:-:0;;;;;",
+    "sourcePath": "c:/Users/Tom Reeve/Code/TomGit/eth-todo-list/contracts/TodoList.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/Tom Reeve/Code/TomGit/eth-todo-list/contracts/TodoList.sol",
+        "exportedSymbols": {
+            "TodoList": [
+                2
+            ]
+        },
+        "id": 3,
+        "license": "MIT",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.5",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "33:24:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 2,
+                "linearizedBaseContracts": [
+                    2
+                ],
+                "name": "TodoList",
+                "nameLocation": "70:8:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [],
+                "scope": 3,
+                "src": "61:28:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "33:56:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
